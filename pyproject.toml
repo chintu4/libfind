@@ -1,7 +1,7 @@
 [project]
-name = "phelp"
+name = "pyfindr"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Python tool to find functions and classes in libraries and packages"
 readme = "README.md"
 authors = [
     { name = "Chintu Sharma", email = "chintusharma00014@gmail.com" }
@@ -10,7 +10,7 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.scripts]
-phelp = "phelp:main"
+pyfindr = "pyfindr:main"
 
 [build-system]
 requires = ["uv_build>=0.12.19,<0.13.0"]
