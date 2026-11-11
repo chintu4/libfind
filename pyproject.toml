@@ -1,5 +1,5 @@
 [project]
-name = "pyfindr"
+name = "libfind"
 version = "0.1.0"
 description = "A Python tool to find functions and classes in libraries and packages"
 readme = "README.md"
@@ -10,7 +10,7 @@ requires-python = ">=3.10"
 dependencies = []
 
 [project.scripts]
-pyfindr = "pyfindr:main"
+libfind = "libfind:main"
 
 [build-system]
 requires = ["uv_build>=0.12.19,<0.13.0"]
