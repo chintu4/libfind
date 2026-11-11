@@ -35,7 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/pyfindr
+      url: https://pypi.org/p/libfind
     permissions:
       id-token: write
 
